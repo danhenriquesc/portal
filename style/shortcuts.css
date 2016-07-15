@@ -1,0 +1,413 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,800,400);
+
+/*
+* Shortcuts
+* Copyright 2014, Ararazu
+* www.ararazu.com
+*/
+
+/* Variables
+================================================== */
+
+/* Mixins
+================================================== */
+
+.noRounded {
+	-khtml-border-radius: 0;
+	-o-border-radius: 0;
+	border-radius: 0;
+}
+
+.noAppearance {
+	-webkit-appearance: none;
+	-khtml-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
+	-o-appearance: none;
+	appearance: none;
+}
+
+.noShadow {
+	-webkit-box-shadow: none;
+	-khtml-box-shadow: none;
+	-ms-box-shadow: none;
+	-o-box-shadow: none;
+	box-shadow: none;
+}
+
+/* Classes
+================================================== */
+
+.clear {
+	clear: both;
+	height: 0;
+	max-height: initial;
+	min-height: initial;
+}
+
+.fleft {
+	float: left;
+}
+
+.fright {
+	float: right;
+}
+
+.align-left {
+	text-align: left;
+}
+
+.align-right {
+	text-align: right;
+}
+
+.noVisible {
+	visibility: hidden;
+}
+
+.visible {
+	visibility: visible;
+}
+
+.hide {
+	display: none;
+}
+
+.inherit {
+	display: inherit;
+}
+
+.block {
+	display: block;
+}
+
+.inline {
+	display: inline;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+.inline-table {
+	display: inline-table;
+}
+
+.table {
+	display: table;
+}
+
+.table-cell {
+	display: table-cell;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.normal {
+	font-weight: normal;
+}
+
+.lowercase {
+	text-transform: lowercase;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.capitalize {
+	text-transform: capitalize;
+}
+
+.normalText {
+	text-transform: none;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+.center {
+	text-align: center;
+}
+
+.margintop {
+	margin-top: 40px;
+}
+
+.marginright {
+	margin-right: 40px;
+}
+
+.marginbottom {
+	margin-bottom: 40px;
+}
+
+.marginleft {
+	margin-left: 40px;
+}
+
+.mb-15 {
+	margin-bottom: 15px;
+}
+
+.nomarginall {
+	margin: 0;
+}
+
+.nomargintop {
+	margin-top: 0;
+}
+
+.nomarginright {
+	margin-right: 0;
+}
+
+.nomarginbottom {
+	margin-bottom: 0;
+}
+
+.nomarginleft {
+	margin-left: 0;
+}
+
+.nopaddingall {
+	padding: 0;
+}
+
+.nopaddingtop {
+	padding-top: 0;
+}
+
+.nopaddingright {
+	padding-right: 0;
+}
+
+.nopaddingbottom {
+	padding-bottom: 0;
+}
+
+.nopaddingleft {
+	padding-left: 0;
+}
+
+.nobordergall {
+	border: 0;
+}
+
+.nobordertop {
+	border-top: 0;
+}
+
+.noborderright {
+	border-right: 0;
+}
+
+.noborderbottom {
+	border-bottom: 0;
+}
+
+.noborderleft {
+	border-left: 0;
+}
+
+/* Colors
+================================================== */
+
+.bg-white {
+	background: #ffffff;
+}
+
+.bg-black {
+	background: #000000;
+}
+
+.white {
+	color: #ffffff;
+}
+
+.black {
+	color: #000000;
+}
+
+.over-pattern,
+.over-lines,
+.over-color,
+.over-logo {
+	width: 100%;
+	max-width: initial;
+	min-width: initial;
+	height: 100%;
+	max-height: initial;
+	min-height: initial;
+	position: absolute;
+	top: 0;
+	left: 0;
+	-webkit-transition: all 0.3s ease;
+	-khtml-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	-ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=" 0 ")";
+	filter: alpha(opacity=0);
+	opacity: 0;
+	visibility: hidden;
+}
+
+.over-pattern.opacity10,
+.over-lines.opacity10,
+.over-color.opacity10,
+.over-logo.opacity10 {
+	-ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=" 10 ")";
+	filter: alpha(opacity=10);
+	opacity: 0.1;
+	visibility: visible;
+}
+
+.over-pattern.opacity20,
+.over-lines.opacity20,
+.over-color.opacity20,
+.over-logo.opacity20 {
+	-ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=" 20 ")";
+	filter: alpha(opacity=20);
+	opacity: 0.2;
+	visibility: visible;
+}
+
+.over-pattern.opacity30,
+.over-lines.opacity30,
+.over-color.opacity30,
+.over-logo.opacity30 {
+	-ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=" 30 ")";
+	filter: alpha(opacity=30);
+	opacity: 0.3;
+	visibility: visible;
+}
+
+.over-pattern.opacity40,
+.over-lines.opacity40,
+.over-color.opacity40,
+.over-logo.opacity40 {
+	-ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=" 40 ")";
+	filter: alpha(opacity=40);
+	opacity: 0.4;
+	visibility: visible;
+}
+
+.over-pattern.opacity50,
+.over-lines.opacity50,
+.over-color.opacity50,
+.over-logo.opacity50 {
+	-ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=" 50 ")";
+	filter: alpha(opacity=50);
+	opacity: 0.5;
+	visibility: visible;
+}
+
+.over-pattern.opacity60,
+.over-lines.opacity60,
+.over-color.opacity60,
+.over-logo.opacity60 {
+	-ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=" 60 ")";
+	filter: alpha(opacity=60);
+	opacity: 0.6;
+	visibility: visible;
+}
+
+.over-pattern.opacity70,
+.over-lines.opacity70,
+.over-color.opacity70,
+.over-logo.opacity70 {
+	-ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=" 70 ")";
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+	visibility: visible;
+}
+
+.over-pattern.opacity80,
+.over-lines.opacity80,
+.over-color.opacity80,
+.over-logo.opacity80 {
+	-ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=" 80 ")";
+	filter: alpha(opacity=80);
+	opacity: 0.8;
+	visibility: visible;
+}
+
+.over-pattern.opacity90,
+.over-lines.opacity90,
+.over-color.opacity90,
+.over-logo.opacity90 {
+	-ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=" 90 ")";
+	filter: alpha(opacity=90);
+	opacity: 0.9;
+	visibility: visible;
+}
+
+.over-pattern {
+	z-index: -1;
+}
+
+.over-pattern.dots {
+	background: url('[[pix:theme|plume-slider/pat-dots]]') 0 0 repeat;
+}
+
+.over-pattern.vertical {
+	background: url('[[pix:theme|plume-slider/pat-vertical]]') 0 0 repeat;
+}
+
+.over-pattern.horizontal {
+	background: url('[[pix:theme|plume-slider/pat-horizontal]]') 0 0 repeat;
+}
+
+.over-pattern.diagonal {
+	background: url('[[pix:theme|plume-slider/pat-diagonal]]') 0 0 repeat;
+}
+
+.over-color {
+	z-index: 2;
+	background: [[setting:color5]];
+	-ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=" 0 ")";
+	filter: alpha(opacity=0);
+	opacity: 0;
+	visibility: hidden;
+}
+
+.over-lines {
+	margin: 0;
+	padding: 10px;
+	border: 0;
+	-webkit-transition: all 0.2s ease;
+	-khtml-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+	-webkit-transform: scale(1.3);
+	-khtml-transform: scale(1.3);
+	-ms-transform: scale(1.3);
+	transform: scale(1.3);
+	-webkit-box-sizing: border-box;
+	-khtml-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	z-index: 3;
+}
+
+.over-lines .over-lines-inner {
+	width: 100%;
+	max-width: initial;
+	min-width: initial;
+	height: 100%;
+	max-height: initial;
+	min-height: initial;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	border: 2px solid #ffffff;
+	-webkit-box-sizing: border-box;
+	-khtml-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}

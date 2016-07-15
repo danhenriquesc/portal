@@ -1,0 +1,328 @@
+/*
+* Buttons
+* Copyright 2014, Ararazu
+* www.ararazu.com
+*/
+
+/* Buttons
+================================================== */
+
+.buttons-block {
+	position: relative;
+	background-color: #444444;
+	background-color: #1f1f1f;
+	background: -webkit-gradient(linear, left top, left bottom, from(#1f1f1f), to(#474747));
+	background: -webkit-linear-gradient(top, #1f1f1f, #474747);
+	margin: 0;
+	padding: 0;
+	border: 0;
+	text-align: center;
+	-webkit-box-shadow: inset 0px 0px 7px 0px rgba(0, 0, 0, 0.3);
+	-khtml-box-shadow: inset 0px 0px 7px 0px rgba(0, 0, 0, 0.3);
+	-ms-box-shadow: inset 0px 0px 7px 0px rgba(0, 0, 0, 0.3);
+	-o-box-shadow: inset 0px 0px 7px 0px rgba(0, 0, 0, 0.3);
+	box-shadow: inset 0px 0px 7px 0px rgba(0, 0, 0, 0.3);
+}
+
+.buttons-block .over-pattern {
+	z-index: 1;
+}
+
+.buttons-block .sklt-container,
+.buttons-block .column,
+.buttons-block .columns {
+	z-index: 2;
+}
+
+.btn,
+a.btn,
+input.btn,
+.coursesearchbox.invisiblefieldset input[type="submit"]{
+	background-color: [[setting:color1]];
+	background-image: url('[[pix:theme|bg-btn-medium]]');
+	background-repeat: repeat-x;
+	background-position: bottom left;
+	color: #ffffff;
+	margin: 0;
+	padding: 7px 12px;
+	border: 1px solid [[setting:color2]];
+	width: auto;
+	max-width: initial;
+	min-width: initial;
+	height: auto;
+	max-height: initial;
+	min-height: initial;
+	font-size: 15px;
+	line-height: 24px;
+	font-weight: 300;
+	text-align: center;
+	text-decoration: none;
+	-khtml-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	text-transform: uppercase;
+	-webkit-box-sizing: border-box;
+	-khtml-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: background 0.2s, -webkit-transform 0.1s;
+	-khtml-transition: background 0.2s, transform 0.1s;
+	transition: background 0.2s, transform 0.1s;
+	display: inline-block;
+}
+.coursesearchbox.invisiblefieldset input[type="submit"]{
+	margin-left: 10px;
+}
+
+.btn i,
+a.btn i,
+input.btn i {
+	margin-right: 10px;
+}
+
+.btn i.right,
+a.btn i.right,
+input.btn i.right {
+	margin-right: 0;
+	margin-left: 10px;
+}
+
+.btn:hover,
+a.btn:hover,
+input.btn:hover,
+.btn:focus,
+a.btn:focus,
+input.btn:focus {
+	background-color: #3aa4f0;
+	border-color: #69baf3;
+}
+
+.btn:active,
+a.btn:active,
+input.btn:active {
+	-webkit-box-shadow: inset 0 3px 6px 0 rgba(0, 0, 0, 0.1);
+	-khtml-box-shadow: inset 0 3px 6px 0 rgba(0, 0, 0, 0.1);
+	-ms-box-shadow: inset 0 3px 6px 0 rgba(0, 0, 0, 0.1);
+	-o-box-shadow: inset 0 3px 6px 0 rgba(0, 0, 0, 0.1);
+	box-shadow: inset 0 3px 6px 0 rgba(0, 0, 0, 0.1);
+	-webkit-transform: translateY(3px);
+	-khtml-transform: translateY(3px);
+	-ms-transform: translateY(3px);
+	transform: translateY(3px);
+}
+
+.btn.disabled,
+a.btn.disabled,
+input.btn.disabled {
+	color: #444444;
+	background-color: #cccccc;
+	border-color: #e6e6e6;
+}
+
+.btn.disabled:hover,
+a.btn.disabled:hover,
+input.btn.disabled:hover {
+	background-color: #d9d9d9;
+	border-color: #f2f2f2;
+}
+
+.btn.brand-2,
+a.btn.brand-2,
+input.btn.brand-2 {
+	background-color: [[setting:color3]];
+	border-color: [[setting:color4]];
+}
+
+.btn.brand-2:hover,
+a.btn.brand-2:hover,
+input.btn.brand-2:hover {
+	background-color: [[setting:color4]];
+	border-color: [[setting:color4]];
+}
+
+.btn.btn-small,
+a.btn.btn-small,
+input.btn.btn-small {
+	background-image: url('[[pix:theme|bg-btn-small]]');
+	font-size: 12px;
+	padding: 2px 15px;
+	-khtml-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	-webkit-box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.1);
+	-khtml-box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.1);
+	-ms-box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.1);
+	-o-box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.1);
+	box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.1);
+}
+
+.btn.btn-small i,
+a.btn.btn-small i,
+input.btn.btn-small i {
+	margin-right: 5px;
+}
+
+.btn.btn-small i.right,
+a.btn.btn-small i.right,
+input.btn.btn-small i.right {
+	margin-right: 0;
+	margin-left: 5px;
+}
+
+.btn.btn-small:active,
+a.btn.btn-small:active,
+input.btn.btn-small:active {
+	-webkit-box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+	-khtml-box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+	-ms-box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+	-o-box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+	box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+	-webkit-transform: translateY(2px);
+	-khtml-transform: translateY(2px);
+	-ms-transform: translateY(2px);
+	transform: translateY(2px);
+}
+
+.btn.btn-icon,
+a.btn.btn-icon,
+input.btn.btn-icon {
+	background-image: url('[[pix:theme|bg-btn-small]]');
+	font-size: 12px;
+	padding: 2px 15px;
+	-khtml-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	-webkit-box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.1);
+	-khtml-box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.1);
+	-ms-box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.1);
+	-o-box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.1);
+	box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.1);
+	background-color: #666666;
+	border-color: #8c8c8c;
+	margin: 0 0 0 5px;
+	padding: 2px 12px;
+}
+
+.btn.btn-icon i,
+a.btn.btn-icon i,
+input.btn.btn-icon i {
+	margin-right: 5px;
+}
+
+.btn.btn-icon i.right,
+a.btn.btn-icon i.right,
+input.btn.btn-icon i.right {
+	margin-right: 0;
+	margin-left: 5px;
+}
+
+.btn.btn-icon:active,
+a.btn.btn-icon:active,
+input.btn.btn-icon:active {
+	-webkit-box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+	-khtml-box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+	-ms-box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+	-o-box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+	box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+	-webkit-transform: translateY(2px);
+	-khtml-transform: translateY(2px);
+	-ms-transform: translateY(2px);
+	transform: translateY(2px);
+}
+
+.btn.btn-icon:hover,
+a.btn.btn-icon:hover,
+input.btn.btn-icon:hover {
+	background-color: #3aa4f0;
+	border-color: #69baf3;
+}
+
+.btn.btn-icon i,
+a.btn.btn-icon i,
+input.btn.btn-icon i {
+	font-size: 14px;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+}
+
+.btn.btn-go,
+a.btn.btn-go,
+input.btn.btn-go {
+	margin: 0 0 0 5px;
+	padding: 7px 12px;
+	font-size: 14px;
+	display: inline;
+	-webkit-box-shadow: none;
+	-khtml-box-shadow: none;
+	-ms-box-shadow: none;
+	-o-box-shadow: none;
+	box-shadow: none;
+}
+
+.btn.btn-go:active,
+a.btn.btn-go:active,
+input.btn.btn-go:active {
+	-webkit-box-shadow: none;
+	-khtml-box-shadow: none;
+	-ms-box-shadow: none;
+	-o-box-shadow: none;
+	box-shadow: none;
+	-webkit-transform: translateY(0);
+	-khtml-transform: translateY(0);
+	-ms-transform: translateY(0);
+	transform: translateY(0);
+}
+
+.btn.btn-large,
+a.btn.btn-large,
+input.btn.btn-large {
+	background-image: url('[[pix:theme|bg-btn-large]]');
+	font-size: 18px;
+	padding: 13px 40px;
+	-khtml-border-radius: 6px;
+	-o-border-radius: 6px;
+	border-radius: 6px;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	-webkit-box-shadow: 0 4px 0 0 rgba(0, 0, 0, 0.2);
+	-khtml-box-shadow: 0 4px 0 0 rgba(0, 0, 0, 0.2);
+	-ms-box-shadow: 0 4px 0 0 rgba(0, 0, 0, 0.2);
+	-o-box-shadow: 0 4px 0 0 rgba(0, 0, 0, 0.2);
+	box-shadow: 0 4px 0 0 rgba(0, 0, 0, 0.2);
+}
+
+.btn.btn-large i,
+a.btn.btn-large i,
+input.btn.btn-large i {
+	margin-right: 15px;
+}
+
+.btn.btn-large i.right,
+a.btn.btn-large i.right,
+input.btn.btn-large i.right {
+	margin-right: 0;
+	margin-left: 15px;
+}
+
+.btn.btn-large:active,
+a.btn.btn-large:active,
+input.btn.btn-large:active {
+	-webkit-box-shadow: inset 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+	-khtml-box-shadow: inset 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+	-ms-box-shadow: inset 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+	-o-box-shadow: inset 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+	box-shadow: inset 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+	-webkit-transform: translateY(4px);
+	-khtml-transform: translateY(4px);
+	-ms-transform: translateY(4px);
+	transform: translateY(4px);
+}

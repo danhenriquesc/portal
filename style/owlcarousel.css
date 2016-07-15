@@ -1,0 +1,169 @@
+/* 
+ * Core Owl Carousel CSS File
+ * v1.3.2
+ * Note: This file was edited by Ararazu (www.ararazu.com)
+ */
+
+.owl-carousel .owl-wrapper:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+.owl-carousel {
+	display: none;
+	position: relative;
+	width: 100%;
+	-ms-touch-action: pan-y;
+}
+
+.owl-carousel .owl-wrapper {
+	display: none;
+	position: relative;
+	-webkit-transform: translate3d(0px, 0px, 0px);
+}
+
+.owl-carousel .owl-wrapper-outer {
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+
+.owl-carousel .owl-wrapper-outer.autoHeight {
+	-webkit-transition: height 500ms ease-in-out;
+	transition: height 500ms ease-in-out;
+}
+
+.owl-carousel .owl-item {
+	float: left;
+}
+
+.owl-controls .owl-page,
+.owl-controls .owl-buttons div {
+	cursor: pointer;
+}
+
+.owl-controls {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.grabbing {
+	cursor: url(grabbing.png) 8 8, move;
+}
+
+.owl-carousel .owl-wrapper,
+.owl-carousel .owl-item {
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	-webkit-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	-ms-transform: translate3d(0, 0, 0);
+}
+
+.owl-carousel figure img,
+.owl-carousel img {
+	width: 100%;
+	max-width: initial;
+	min-width: initial;
+}
+
+#owl-carousel .item,
+.courseimage {
+	margin: 0 10px;
+}
+
+#owl-carousel .item a,
+.courseimage a {
+	background: [[setting:color1]];
+	display: inline-block;
+	overflow: hidden;
+	position: relative;
+}
+
+#owl-carousel .item a img,
+.courseimage a img {
+	display: block;
+	-webkit-transition: 0.5s;
+	-khtml-transition: 0.5s;
+	transition: 0.5s;
+}
+
+#owl-carousel .item a:after,
+.courseimage a:after {
+	content: "+";
+	font-size: 60px;
+	line-height: 80px;
+	color: #ffffff;
+	text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+	text-align: center;
+	margin: -40px 0 0 -40px;
+	padding: 0;
+	border: 1px solid rgba(255, 255, 255, 0.4);
+	position: absolute;
+	width: 80px;
+	max-width: initial;
+	min-width: initial;
+	height: 80px;
+	max-height: initial;
+	min-height: initial;
+	top: 50%;
+	left: 50%;
+	-ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=" 0 ")";
+	filter: alpha(opacity=0);
+	opacity: 0;
+	-webkit-transition: 0.3s;
+	-khtml-transition: 0.3s;
+	transition: 0.3s;
+	-webkit-transform: scale(2);
+	-khtml-transform: scale(2);
+	-ms-transform: scale(2);
+	transform: scale(2);
+}
+
+#owl-carousel .item a:hover img,
+.courseimage a:hover img {
+	-webkit-transform: scale(1.05);
+	-khtml-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	transform: scale(1.05);
+	-ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=" 30 ")";
+	filter: alpha(opacity=30);
+	opacity: 0.3;
+}
+
+.dir-rtl .sklt-container #owl-carousel .item a:hover img.if-rtl-flip,
+.dir-rtl .sklt-container .courseimage a:hover img.if-rtl-flip{
+	-webkit-transform: scale(1.05) rotateY(180deg);
+	-khtml-transform: scale(1.05) rotateY(180deg);
+	-ms-transform: scale(1.05) rotateY(180deg);
+	transform: scale(1.05) rotateY(180deg);
+}
+
+#owl-carousel .item a:hover:after,
+.courseimage a:hover:after {
+	-ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=" 100 ")";
+	filter: alpha(opacity=100);
+	opacity: 1;
+	-webkit-transform: scale(1);
+	-khtml-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+}
+
+#owl-carousel .item img {
+	width: 100%;
+	max-width: initial;
+	min-width: initial;
+	height: auto;
+	max-height: initial;
+	min-height: initial;
+}

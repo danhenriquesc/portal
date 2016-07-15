@@ -1,0 +1,160 @@
+/* #RTL Support
+================================================== */
+
+.dir-rtl {
+  text-align: right;
+}
+
+.dir-rtl .sklt-container {
+  -webkit-transform: rotateY(180deg);
+  -khtml-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+.dir-rtl .sklt-container .if-rtl-flip {
+  -webkit-transform: rotateY(180deg);
+  -khtml-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+.dir-rtl .sklt-container .if-rtl-flip.control {
+  text-align: left;
+}
+
+.dir-rtl .sklt-container .if-rtl-flip .text-right {
+  text-align: left;
+  float: left;
+}
+
+.dir-rtl .sklt-container .if-rtl-flip .coursesearchbox {
+  text-align: left;
+}
+
+.dir-rtl .sklt-container .if-rtl-flip .courseimage {
+  margin: 5px 0 0 20px;
+  float: right;
+}
+
+.dir-rtl .sklt-container .leftsidebar .header .if-rtl-flip {
+  padding-right: 15px;
+  padding-left: 0;
+}
+
+.dir-rtl .sklt-container .leftsidebar .header .if-rtl-flip a {
+  float: left;
+  margin-left: 15px;
+  margin-right: 0;
+}
+
+.dir-rtl .sklt-container .leftsidebar .if-rtl-flip ul {
+  margin-left: 0;
+  margin-right: 15px;
+}
+
+.dir-rtl #link-boxes .if-rtl-flip .circle {
+  float: right;
+  margin: 0 0 0 10px;
+}
+
+.dir-rtl .loginbox form .inputarea div input[type="text"]{
+  margin-right: 0 !important;
+}
+
+.dir-rtl #footer .contactinfos>li>i.fa{
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+html[dir=rtl] #page-content{
+  float: none;
+}
+
+.dir-rtl #menubar nav#mainmenu ul#menu-list li.menu ul.sub-menu{
+  right: 0;
+  left: auto;
+}
+
+.dir-rtl #menubar nav#mainmenu ul#menu-list li.menu ul.sub-menu li a{
+  text-align: right;
+}
+
+.dir-rtl #menubar nav#mainmenu ul#menu-list li.menu ul.sub-menu.lvl-1 li.menu a div.if-rtl-flip{
+  float: left;
+  width: 90%;
+}
+.dir-rtl #menubar nav#mainmenu ul#menu-list li.menu ul.sub-menu li a i{
+  float: none;
+}
+#menubar nav#mainmenu ul#menu-list li.menu ul.sub-menu.lvl-1 li.menu a div{
+  display: inline-block;
+}
+.dir-rtl #menubar nav#mainmenu ul#menu-list li.menu ul.lvl-2 li.menu a div.if-rtl-flip{
+  float: none !important;
+  width: 100% !important;
+}
+.dir-rtl #menubar nav#mainmenu ul#menu-list li.menu ul.lvl-2{
+  margin-left: 0;
+  margin-right: 0;
+  border-left: 1px solid #DDDDDD;
+}
+
+.dir-rtl .block_settings .block_tree li.item_with_icon > p img{
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+@media only screen and (max-width: 767px){
+  .dir-rtl #menubar nav#mainmenu ul#menu-list li.menu ul.sub-menu.lvl-1 li.menu a div.if-rtl-flip{
+    width: auto !important;
+  }
+  .dir-rtl #menubar nav#mainmenu ul#menu-list li.menu ul.lvl-2 li.menu a div.if-rtl-flip{
+    width: auto !important;
+    margin-right: 5px;
+    border: none !important;
+    -webkit-transform: rotateY(0deg);
+    -khtml-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+  }
+  .dir-rtl #menubar nav#mainmenu ul#menu-list li.menu ul.lvl-2{
+    border: none !important;
+    -webkit-transform: rotateY(180deg);
+    -khtml-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+  }
+  .dir-rtl #menubar nav#mainmenu ul#menu-list li.menu ul.sub-menu li a{
+    display: table;
+  }
+}
+
+
+.dir-rtl.pagelayout-mydashboard .if-rtl-flip.alpha.omega.twelve.columns{
+  width: 880px;
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 960px){
+  .dir-rtl.pagelayout-mydashboard .if-rtl-flip.alpha.omega.twelve.columns {
+    width: 700px;
+  }
+}
+
+@media only screen and (max-width: 959px) and (min-width: 768px){
+  .dir-rtl.pagelayout-mydashboard .if-rtl-flip.alpha.omega.twelve.columns {
+    width: 556px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .dir-rtl.pagelayout-mydashboard .if-rtl-flip.alpha.omega.twelve.columns {
+    width: 300px;
+  }
+}
+ 
+@media only screen and (max-width: 767px) and (min-width: 480px){
+  .dir-rtl.pagelayout-mydashboard .if-rtl-flip.alpha.omega.twelve.columns {
+    width: 420px;
+  }
+}

@@ -1,0 +1,68 @@
+*{
+    border: 0;
+    font-family: [[setting:fontFamily]], sans-serif !important;
+    margin: 0;
+    padding: 0;
+}
+html{
+    overflow-x: hidden;
+}
+
+[[setting:bgstyle]]
+
+.leftsidebar, .rightsidebar{
+    height: auto;
+    min-height: 300px;
+    width: 100%;
+}
+
+/*Moodle Base Override*/
+/*#page #outercontainer{
+    background: none !important;
+    background-position: 0 0 !important;
+    margin: 0 !important;
+    min-width: 0 !important;
+    width: 100% !important;
+}
+#page-content{
+    clear: none !important;
+    float: none !important;
+    overflow: auto !important;
+    width: 100% !important;
+}
+#page-content #region-main-box,#page-content #region-main-box #region-post-box{
+    float: none !important;
+    right: 0 !important;
+    width: 100% !important;
+}
+#page-content #region-main-box #region-post-box #region-main{
+    float: none !important;
+    left: 0 !important;
+    width: 100% !important;
+}
+#page-content #region-main-box #region-post-box #region-main #region-content{
+    padding: 0 0 10px 20px !important;
+}*/
+
+#section-0,#section-2,#section-4,#section-6,#section-8,#section-10,#section-12,#section-14,#section-16,#section-18,#section-20,#section-22,#section-24,#section-26,#section-28,#section-30,
+#section-31,#section-32,#section-33,#section-34,#section-35,#section-36,#section-37,#section-38,#section-39,#section-40,#section-41,#section-42,#section-43,#section-44,#section-45,
+#section-46,#section-47,#section-48,#section-49,#section-50,#section-51,#section-52,#section-53,#section-54,#section-55,#section-56,#section-57,#section-58,#section-59,#section-60{
+    background: #EEEEEE;
+}
+.section{
+    color: #444444 !important;
+    margin: 0 !important;
+    padding: 15px 0 5px 0 !important;
+}
+.quizinfo, #intro div,h2.main{
+    text-align: center;
+}
+/*h2.main{
+    margin-top: 25px;
+}*/
+/*.header{
+    margin-bottom: 0 !important;
+}*/
+.accesshide{
+    display: none;
+}

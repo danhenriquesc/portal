@@ -1,0 +1,339 @@
+.ararazu-settings-content *{
+	box-sizing: border-box !important;
+	-moz-box-sizing: border-box !important;
+}
+.ararazu-settings-content #sidebarTabsArea>.sidebarTabs>p, 
+.ararazu-settings-content .radioOption>label, 
+.ararazu-settings-content input[type='text'], 
+.ararazu-settings-content h1, 
+.ararazu-settings-content h2, 
+.ararazu-settings-content h3, 
+.ararazu-settings-content .ararazuButton, 
+.ararazu-settings-content #settingsContent *{
+	font-family: 'Ubuntu', sans-serif !important;
+}
+
+.ararazu-settings-content input[type='radio'], 
+.ararazu-settings-content button{
+	cursor: pointer !important;
+}
+.ararazu-settings-content input[type='text'],
+.ararazu-settings-content select, 
+.ararazu-settings-content textarea{
+	border: 1px solid #DDDDDD !important;
+	width: 400px !important;
+}
+.ararazu-settings-content textarea{
+	min-height: 100px !important;
+	resize: vertical !important;
+}
+.ararazu-settings-content input[type='text']{
+	padding: 5px !important;
+}
+.ararazu-settings-content .longtextOption{
+	width: 400px !important;
+}
+.ararazu-settings-content h1{
+	border-bottom: 1px solid #DBDBDB !important;
+	font-size: 27px !important;
+	font-weight: lighter !important;
+	margin: 12px 0 !important;
+	height: 47px !important;
+	line-height: 47px !important;
+	text-transform: uppercase !important;
+}
+.ararazu-settings-content h2{
+	font-size: 16px !important;
+	margin-bottom: 0 !important;
+	text-transform: uppercase !important;
+	font-weight: bold !important;
+	margin-top: 16px !important;
+	line-height: 22px !important;
+}
+.ararazu-settings-content h3{
+	font-size: 15px !important;
+	font-weight: lighter !important;
+	margin: 0 0 10px 0 !important;
+	line-height: 21px !important;
+}
+.ararazu-settings-content h4,
+.ararazu-settings-content h6{
+	font-size: 14px !important;
+	font-weight: bold !important;
+	line-height: 19px !important;
+}
+.ararazu-settings-content label{
+	display: inline !important;
+	font-weight: normal !important;
+	width: auto !important;
+}
+.ararazu-settings-content hr{
+	background: #CCCCCC !important;
+	height: 1px !important;
+	margin: 25px 0 !important;
+}
+.ararazu-settings-content #container{
+	border: none !important;
+}
+.ararazu-settings-content #page-content{
+	overflow: none !important;;
+}
+.ararazu-settings-content .clear{
+	clear: both !important;
+}
+.ararazu-settings-content #portalSettingsHeader{
+	border: 1px solid #CDD2D2 !important;
+	padding: 22px 20px !important;
+	height: 130px !important;
+	width: 100% !important;
+}
+.ararazu-settings-content .ararazuButton{
+	border-radius: 5px !important;
+	-webkit-border-radius: 5px !important;
+	-moz-border-radius: 5px !important;
+	color: #FFFFFF !important;
+	cursor: pointer !important;
+	display: inline-block !important;
+	font-size: 15px !important;
+	font-weight: lighter !important;
+	height: 35px !important;
+	margin-top: 5px !important;
+	padding: 5px 0px !important;
+	text-align: center !important;
+	width: 90px !important;
+
+	transition: all 0.5s !important;
+}
+.ararazu-settings-content #ararazuButton:hover{
+	transition: all 0.5s !important;
+}
+.ararazu-settings-content .ararazuButtonBlue{ background-color: #4E87E9 !important;; }
+.ararazu-settings-content .ararazuButtonBlue:hover{ background-color: #0754AB !important;; }
+.ararazu-settings-content .ararazuButtonGreen{ background-color: #32BC65 !important;; }
+.ararazu-settings-content .ararazuButtonGreen:hover{ background-color: #0D8F3D !important;; }
+.ararazu-settings-content .ararazuButtonRed{ background-color: #D90024 !important;; }
+.ararazu-settings-content .ararazuButtonRed:hover{ background-color: #8E0017 !important;; }
+
+.ararazu-settings-content #DesignerModeWarningBox{
+	border-top: 1px solid #DDD !important;
+	width: 100% !important;
+	margin-top: 10px !important;
+	cursor: default !important;
+}
+.ararazu-settings-content #DesignerMode{
+	background: #fff !important;
+	color: #000 !important;
+	display: inline-block !important;
+	font-size: 15px !important;
+	font-weight: normal !important;
+	height: 35px !important;
+	margin-right: 10px !important;
+	padding: 11px 15px 0 0 !important;
+	text-align: left !important;
+}
+.ararazu-settings-content #DesignerMode a{
+	color: #000 !important;
+	text-decoration: none !important;
+}
+.ararazu-settings-content #DesignerMode b{
+	font-weight: bold;
+}
+.ararazu-settings-content #DesignerMode:focus,
+.ararazu-settings-content #DesignerModeWarning:focus,
+.ararazu-settings-content #DesignerMode:hover, 
+.ararazu-settings-content #DesignerModeWarning:hover{
+	outline: none !important;
+}
+.ararazu-settings-content #DesignerModeWarning>span{
+	font-weight: bold !important;
+}
+.ararazu-settings-content #DesignerModeWarning{
+	background: #FFFFFF !important;
+	border-radius: 5px !important;
+	color: #666 !important;
+	-webkit-border-radius: 5px !important;
+	-moz-border-radius: 5px !important;
+	float: right !important;
+	font-size: 15px !important;
+	font-weight: normal !important;
+	height: 30px !important;
+	margin-top: 7px !important;
+	padding: 3px 15px !important;
+}
+.ararazu-settings-content #settingsContent{
+	background: url('../images/bgTile.jpg') repeat-y !important;
+	border: 1px solid #CDD2D2 !important;
+	border-top: 0 !important;
+	height: auto !important;
+	margin-bottom: 20px !important;
+	width: 100% !important;
+}
+.ararazu-settings-content #sidebarTabsArea{
+	background-color: #F4F4F4 !important;
+	border-right: 1px solid #CDD2D2 !important;
+	float: left !important;
+	width: 270px !important;
+}
+.ararazu-settings-content #sidebarTabsArea>.sidebarTabs{
+	border-bottom: 1px solid #CDD2D2 !important;
+	cursor: pointer !important;
+	height: 60px !important;
+	padding: 20px 25px !important;
+
+	transition: all 0.5s !important;
+}
+.ararazu-settings-content #sidebarTabsArea>.sidebarTabs:hover{
+	background-color: #E6E6E6 !important;
+
+	transition: all 0.5s !important;
+}
+.ararazu-settings-content #sidebarTabsArea>.sidebarTabs.tabActive{
+	background-color: #DBDBDB !important;
+}
+.ararazu-settings-content #sidebarTabsArea>.sidebarTabs>img{
+	float: left !important;
+	margin-top: 2px !important;
+}
+.ararazu-settings-content #sidebarTabsArea>.sidebarTabs>p{
+	color: #555555 !important;
+	float: left !important;
+	font-size: 17px !important;
+	font-weight: lighter !important;
+	margin-left: 10px !important;
+	text-transform: uppercase !important;
+}
+.ararazu-settings-content .settingsArea{
+	color: #555555 !important;
+	float: left !important;
+	height: auto !important;
+	margin-left: 19px !important;
+	min-height: 100px !important;
+	width: 870px !important;
+}
+.ararazu-settings-content .radioOption>label{
+	margin-right: 10px !important;
+}
+
+.ararazu-settings-content div.thumbListOption>img.thumbListItem{
+	border: 2px solid #FFFFFF !important;
+	cursor: pointer !important;
+	height: 50px !important;
+	width: 50px !important;
+}
+.ararazu-settings-content div.thumbListOption>img.thumbListItem.selected{
+	border: 2px solid #333333 !important;
+}
+.ararazu-settings-content div.imageURLOption>span>img{
+	border: 1px solid #CCCCCC !important;
+	max-height: 150px !important;
+	width: auto !important;
+}
+.ararazu-settings-content div.listOption>table, 
+.ararazu-settings-content div.singlelistOption>table{
+	width: 100% !important;
+}
+.ararazu-settings-content div.listOption>table>thead>tr>th, 
+.ararazu-settings-content div.singlelistOption>table>thead>tr>th{
+	background: #DDDDDD !important;
+	border: 1px solid #BBBBBB !important;
+	padding: 6px 7px !important;
+}
+.ararazu-settings-content div.listOption>table>thead>tr>th:first-child, 
+.ararazu-settings-content div.singlelistOption>table>thead>tr>th:first-child{
+	width: 40px !important;
+}
+.ararazu-settings-content div.listOption>table>tbody>tr>td:first-child, 
+.ararazu-settings-content div.singlelistOption>table>tbody>tr>td:first-child{
+	text-align: center !important;
+}
+.ararazu-settings-content div.listOption>table>thead>tr>th:last-child, 
+.ararazu-settings-content div.singlelistOption>table>thead>tr>th:last-child{
+	width: 105px !important;
+}
+.ararazu-settings-content div.listOption>table>tbody>tr>td, 
+.ararazu-settings-content div.singlelistOption>table>tbody>tr>td{
+	border: 1px solid #EEEEEE !important;
+	padding: 0 7px 6px 7px !important;
+}
+.ararazu-settings-content div.listOption>table>tbody>tr>td>div.ararazuButtonRed, 
+.ararazu-settings-content div.singlelistOption>table>tbody>tr>td>div.ararazuButtonRed{
+	margin-right: -11px !important;
+}
+.ararazu-settings-content div.listOption>table>tbody>tr>td>input[type='text'], 
+.ararazu-settings-content div.singlelistOption>table>tbody>tr>td>input[type='text'], 
+.ararazu-settings-content div.singlelistOption>table>tbody>tr>td>select{
+	width: 100% !important;
+}
+.ararazu-settings-content div.listOption>table>tfoot>tr>td, 
+.ararazu-settings-content div.singlelistOption>table>tfoot>tr>td{
+	text-align: center !important;
+}
+.ararazu-settings-content .slideshowOption>table>tbody>tr>td>table{
+	margin-bottom: 14px !important;
+}
+.ararazu-settings-content .slideshowOption table, 
+.ararazu-settings-content .linkboxOption table{
+	width: 100% !important;
+}
+.ararazu-settings-content .slideshowOption>table>tbody>tr>td>table tr>td, 
+.ararazu-settings-content .linkboxOption>table>tbody>tr>td>table tr>td{
+	border: 1px solid #DDDDDD !important;
+	padding: 7px;
+}
+.ararazu-settings-content .slideshowOption>table>tbody>tr>td, 
+.ararazu-settings-content .linkboxOption>table>tbody>tr>td{
+	padding: 0 !important;
+}
+.ararazu-settings-content .slideshowOption table input[type="text"], 
+.ararazu-settings-content .slideshowOption table textarea,
+.ararazu-settings-content .linkboxOption table input[type="text"], 
+.ararazu-settings-content .linkboxOption table textarea{
+	width: 100% !important;
+}
+.ararazu-settings-content .slideshowOption table textarea, 
+.ararazu-settings-content .linkboxOption table textarea{
+	height: 100px !important;
+	resize: none !important;
+}
+.ararazu-settings-content div.slideshowOption img, 
+.ararazu-settings-content div.linkboxOption img{
+	border: 1px solid #CCCCCC !important;
+	max-width: 100% !important;
+	height: auto !important;
+}
+.ararazu-settings-content .linkboxOption table select{
+	width: 100% !important;
+}
+.ararazu-settings-content .linkboxOption>table>tbody>tr>td>table{
+	margin-bottom: 14px !important;
+}
+.ararazu-settings-content .floatLeft{
+	float: left !important;
+}
+.ararazu-settings-content .left10px{
+	margin-left: 10px !important;
+}
+.ararazu-settings-content .left94px{
+	margin-left: 94px !important;
+}
+.ararazu-settings-content #backOptions{
+	margin-right: 10px !important;
+}
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
+	.ararazu-settings-content .settingsArea{
+		width: 640px !important;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	.ararazu-settings-content #DesignerModeWarning{
+		display: none !important;
+	}
+	.ararazu-settings-content #DesignerMode{
+		width: 100% !important;
+		text-align: center !important;
+	}
+	.ararazu-settings-content .settingsArea{
+		width: 450px !important;
+	}
+}

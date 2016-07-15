@@ -1,0 +1,1642 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+* Note: This file was edited by Ararazu (www.ararazu.com)
+*/
+
+/* Table of Content
+==================================================
+	#Skeleton Variable
+	#Reset & Basics
+	#Basic Styles
+	#Site Styles
+	#Typography
+	#Links
+	#Lists
+	#Images
+	#Buttons
+	#Forms
+	#Base 1200 Grid
+	#Tablet (Portrait)
+	#Mobile (Portrait)
+	#Mobile (Landscape)
+	#Clearing */
+
+/* #Skeleton Variable
+================================================== */
+
+/* #Reset & Basics (Inspired by E. Meyers)
+================================================== */
+
+html,
+body,
+div,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* #Basic Styles
+================================================== */
+
+body {
+	background: #fff;
+	font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #444;
+	-webkit-font-smoothing: antialiased;
+	/* Fix for webkit rendering */
+	-webkit-text-size-adjust: 100%;
+}
+
+/* #Typography
+================================================== */
+
+.subheader {
+	color: #666666;
+}
+
+p {
+	margin: 0 0 20px 0;
+}
+
+p img {
+	margin: 0;
+}
+
+p.lead {
+	font-size: 21px;
+	line-height: 27px;
+	color: #666666;
+}
+
+em {
+	font-style: italic;
+}
+
+strong {
+	font-weight: bold;
+	color: #666666;
+}
+
+small {
+	font-size: 80%;
+}
+
+/*  Blockquotes  */
+
+blockquote,
+blockquote p {
+	font-size: 17px;
+	line-height: 24px;
+	color: #666666;
+	font-style: italic;
+}
+
+blockquote {
+	margin: 0 0 20px;
+	padding: 9px 20px 0 19px;
+	border-left: 1px solid #666666;
+}
+
+blockquote cite {
+	display: block;
+	font-size: 12px;
+	color: #555;
+}
+
+blockquote cite a,
+blockquote cite a:visited,
+blockquote cite a:visited {
+	color: #666666;
+}
+
+hr {
+	border: solid #dddddd;
+	border-width: 1px 0 0;
+	clear: both;
+	margin: 10px 0 30px;
+	height: 0;
+	max-height: initial;
+	min-height: initial;
+}
+
+/* #Links
+================================================== */
+
+a,
+a:visited {
+	color: #666666;
+	text-decoration: none;
+	outline: 0;
+}
+
+a:hover,
+a:focus {
+	color: #666666;
+}
+
+p a,
+p a:visited {
+	line-height: inherit;
+}
+
+/* #Lists
+================================================== */
+
+ul,
+ol {
+	margin-bottom: 20px;
+}
+
+ul {
+	list-style: none outside;
+}
+
+ol {
+	list-style: decimal;
+}
+
+ol,
+ul.square,
+ul.circle,
+ul.disc {
+	margin-left: 30px;
+}
+
+ul.square {
+	list-style: square outside;
+}
+
+ul.circle {
+	list-style: circle outside;
+}
+
+ul.disc {
+	list-style: disc outside;
+}
+
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+	margin: 4px 0 5px 30px;
+	font-size: 90%;
+}
+
+ul ul li,
+ul ol li,
+ol ol li,
+ol ul li {
+	margin-bottom: 6px;
+}
+
+li {
+	line-height: 18px;
+	margin-bottom: 12px;
+}
+
+ul.large li {
+	line-height: 21px;
+}
+
+li p {
+	line-height: 21px;
+}
+
+/* #Images
+================================================== */
+
+img.scale-with-grid {
+	max-width: 100%;
+	height: auto;
+	max-height: initial;
+	min-height: initial;
+}
+
+/* #Buttons
+================================================== */
+
+.button-box {
+	margin-top: 10px;
+	text-align: right;
+}
+
+.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+	background: #666666;
+	color: #ffffff;
+	margin: 0;
+	padding: 8px 15px 10px 15px;
+	border: 0;
+	-khtml-border-radius: 6px;
+	-o-border-radius: 6px;
+	border-radius: 6px;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	display: inline-block;
+	font-size: 16px;
+	text-decoration: none;
+	-webkit-transition: all 0.2s ease;
+	-khtml-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+	-webkit-box-sizing: border-box;
+	-khtml-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	cursor: pointer;
+
+	max-width: 100%;
+	height: auto;
+	/*word-wrap: break-word;*/
+}
+
+.button:focus,
+button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="button"]:focus,
+.button:active,
+button:active,
+input[type="submit"]:active,
+input[type="reset"]:active,
+input[type="button"]:active {
+	outline: none;
+	background: #666666;
+}
+
+.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover {
+	background: #666666;
+}
+
+.button.full-width,
+button.full-width,
+input[type="submit"].full-width,
+input[type="reset"].full-width,
+input[type="button"].full-width {
+	width: 100%;
+	max-width: initial;
+	min-width: initial;
+	padding-left: 0;
+	padding-right: 0;
+	text-align: center;
+}
+
+/* Fix for odd Mozilla border & padding issues */
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+	border: 0;
+	padding: 0;
+}
+
+/* #Forms
+================================================== */
+
+form {
+	margin-bottom: 20px;
+}
+
+fieldset {
+	margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea,
+select {
+	background: #ffffff;
+	color: #666666;
+	margin: 0;
+	padding: 6px 10px 7px 10px;
+	border: 1px solid #666666;
+	width: 100%;
+	max-width: initial;
+	min-width: initial;
+	font-size: 16px;
+	display: block;
+	-webkit-box-sizing: border-box;
+	-khtml-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	outline: none;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+textarea:focus,
+select:focus,
+input[type="text"]:active,
+input[type="password"]:active,
+input[type="email"]:active,
+textarea:active,
+select:active {
+	outline: none;
+}
+
+select {
+	padding: 0;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+	border: 1px solid #666666;
+}
+
+textarea {
+	width: initial;
+	max-width: 100%;
+	min-width: 100%;
+	height: initial;
+	max-height: initial;
+	min-height: 100px;
+}
+
+label,
+legend {
+	display: block;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+select {
+	width: 220px;
+	max-width: initial;
+	min-width: initial;
+}
+
+input[type="checkbox"] {
+	display: inline;
+}
+
+label span,
+legend span {
+	font-weight: normal;
+	font-weight: 400;
+	font-size: 13px;
+	color: #666666;
+}
+
+/* #Base 1200 Grid
+================================================== */
+
+.sklt-container {
+	margin: 0 auto 20px auto;
+	padding: 0;
+	border: 0;
+	width: 1200px;
+	max-width: initial;
+	min-width: initial;
+	position: relative;
+}
+
+.sklt-container .column,
+.sklt-container .columns {
+	float: left;
+	display: inline;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.row {
+	margin-bottom: 20px;
+}
+
+/* Nested Column Classes */
+
+.column.alpha,
+.columns.alpha {
+	margin-left: 0;
+	margin-right: 10px;
+}
+
+.column.omega,
+.columns.omega {
+	margin-right: 0;
+	margin-left: 10px;
+}
+
+.alpha.omega {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.sklt-container .one.column,
+.sklt-container .one.columns {
+	width: 55px;
+	max-width: initial;
+	min-width: initial;
+}
+
+.sklt-container .one.column.alpha.omega,
+.sklt-container .one.columns.alpha.omega {
+	width: 75px;
+	max-width: initial;
+	min-width: initial;
+}
+
+.sklt-container .two.columns {
+	width: 130px;
+	max-width: initial;
+	min-width: initial;
+}
+
+.sklt-container .two.columns.alpha.omega {
+	width: 150px;
+	max-width: initial;
+	min-width: initial;
+}
+
+.sklt-container .three.columns {
+	width: 205px;
+	max-width: initial;
+	min-width: initial;
+}
+
+.sklt-container .three.columns.alpha.omega {
+	width: 225px;
+	max-width: initial;
+	min-width: initial;
+}
+
+.sklt-container .four.columns {
+	width: 280px;
+	max-width: initial;
+	min-width: initial;
+}
+
+.sklt-container .four.columns.alpha.omega {
+	width: 300px;
+	max-width: initial;
+	min-width: initial;
+}
+
+.sklt-container .five.columns {
+	width: 355px;
+	max-width: initial;
+	min-width: initial;
+}
+
+.sklt-container .five.columns.alpha.omega {
+	width: 375px;
+	max-width: initial;
+	min-width: initial;
+}
+
+.sklt-container .six.columns {
+	width: 430px;
+	max-width: initial;
+	min-width: initial;
+}
+
+.sklt-container .six.columns.alpha.omega {
+	width: 450px;
+	max-width: initial;
+	min-width: initial;
+}
+
+.sklt-container .seven.columns {
+	width: 505px;
+	max-width: initial;
+	min-width: initial;
+}
+
+.sklt-container .seven.columns.alpha.omega {
+	width: 525px;
+	max-width: initial;
+	min-width: initial;
+}
+
+.sklt-container .eight.columns {
+	width: 580px;
+	max-width: initial;
+	min-width: initial;
+}
+
+.sklt-container .eight.columns.alpha.omega {
+	width: 600px;
+	max-width: initial;
+	min-width: initial;
+}
+
+.sklt-container .nine.columns {
+	width: 655px;
+	max-width: initial;
+	min-width: initial;
+}
+
+.sklt-container .nine.columns.alpha.omega {
+	width: 675px;
+	max-width: initial;
+	min-width: initial;
+}
+
+.sklt-container .ten.columns {
+	width: 730px;
+	max-width: initial;
+	min-width: initial;
+}
+
+.sklt-container .ten.columns.alpha.omega {
+	width: 750px;
+	max-width: initial;
+	min-width: initial;
+}
+
+.sklt-container .eleven.columns {
+	width: 805px;
+	max-width: initial;
+	min-width: initial;
+}
+
+.sklt-container .eleven.columns.alpha.omega {
+	width: 825px;
+	max-width: initial;
+	min-width: initial;
+}
+
+.sklt-container .twelve.columns {
+	width: 880px;
+	max-width: initial;
+	min-width: initial;
+}
+
+.sklt-container .twelve.columns.alpha.omega {
+	width: 900px;
+	max-width: initial;
+	min-width: initial;
+}
+
+.sklt-container .thirteen.columns {
+	width: 955px;
+	max-width: initial;
+	min-width: initial;
+}
+
+.sklt-container .thirteen.columns.alpha.omega {
+	width: 975px;
+	max-width: initial;
+	min-width: initial;
+}
+
+.sklt-container .fourteen.columns {
+	width: 1030px;
+	max-width: initial;
+	min-width: initial;
+}
+
+.sklt-container .fourteen.columns.alpha.omega {
+	width: 1050px;
+	max-width: initial;
+	min-width: initial;
+}
+
+.sklt-container .fifteen.columns {
+	width: 1105px;
+	max-width: initial;
+	min-width: initial;
+}
+
+.sklt-container .fifteen.columns.alpha.omega {
+	width: 1125px;
+	max-width: initial;
+	min-width: initial;
+}
+
+.sklt-container .sixteen.columns {
+	width: 1180px;
+	max-width: initial;
+	min-width: initial;
+}
+
+.sklt-container .sixteen.columns.alpha.omega {
+	width: 1200px;
+	max-width: initial;
+	min-width: initial;
+}
+
+.sklt-container .one-third.column {
+	width: 380px;
+	max-width: initial;
+	min-width: initial;
+}
+
+.sklt-container .two-thirds.column {
+	width: 780px;
+	max-width: initial;
+	min-width: initial;
+}
+
+.sklt-container .offset-by-one {
+	padding-left: 75px;
+}
+
+.sklt-container .offset-by-two {
+	padding-left: 150px;
+}
+
+.sklt-container .offset-by-three {
+	padding-left: 225px;
+}
+
+.sklt-container .offset-by-four {
+	padding-left: 300px;
+}
+
+.sklt-container .offset-by-five {
+	padding-left: 375px;
+}
+
+.sklt-container .offset-by-six {
+	padding-left: 450px;
+}
+
+.sklt-container .offset-by-seven {
+	padding-left: 525px;
+}
+
+.sklt-container .offset-by-eight {
+	padding-left: 600px;
+}
+
+.sklt-container .offset-by-nine {
+	padding-left: 675px;
+}
+
+.sklt-container .offset-by-ten {
+	padding-left: 750px;
+}
+
+.sklt-container .offset-by-eleven {
+	padding-left: 825px;
+}
+
+.sklt-container .offset-by-twelve {
+	padding-left: 900px;
+}
+
+.sklt-container .offset-by-thirteen {
+	padding-left: 975px;
+}
+
+.sklt-container .offset-by-fourteen {
+	padding-left: 1050px;
+}
+
+.sklt-container .offset-by-fifteen {
+	padding-left: 1125px;
+}
+
+/* #Base 960 Grid
+================================================== */
+
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
+	.sklt-container {
+		width: 960px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	.sklt-container .column,
+	.sklt-container .columns {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	.column.alpha,
+	.columns.alpha {
+		margin-left: 0;
+		margin-right: 10px;
+	}
+
+	.column.omega,
+	.columns.omega {
+		margin-right: 0;
+		margin-left: 10px;
+	}
+
+	.alpha.omega {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.sklt-container .one.column,
+	.sklt-container .one.columns {
+		width: 40px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	.sklt-container .one.column.alpha.omega,
+	.sklt-container .one.columns.alpha.omega {
+		width: 60px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	.sklt-container .two.columns {
+		width: 100px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	.sklt-container .two.columns.alpha.omega {
+		width: 120px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	.sklt-container .three.columns {
+		width: 160px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	.sklt-container .three.columns.alpha.omega {
+		width: 180px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	.sklt-container .four.columns {
+		width: 220px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	.sklt-container .four.columns.alpha.omega {
+		width: 240px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	.sklt-container .five.columns {
+		width: 280px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	.sklt-container .five.columns.alpha.omega {
+		width: 300px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	.sklt-container .six.columns {
+		width: 340px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	.sklt-container .six.columns.alpha.omega {
+		width: 360px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	.sklt-container .seven.columns {
+		width: 400px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	.sklt-container .seven.columns.alpha.omega {
+		width: 420px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	.sklt-container .eight.columns {
+		width: 460px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	.sklt-container .eight.columns.alpha.omega {
+		width: 480px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	.sklt-container .nine.columns {
+		width: 520px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	.sklt-container .nine.columns.alpha.omega {
+		width: 540px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	.sklt-container .ten.columns {
+		width: 580px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	.sklt-container .ten.columns.alpha.omega {
+		width: 600px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	.sklt-container .eleven.columns {
+		width: 640px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	.sklt-container .eleven.columns.alpha.omega {
+		width: 660px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	.sklt-container .twelve.columns {
+		width: 700px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	.sklt-container .twelve.columns.alpha.omega {
+		width: 720px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	.sklt-container .thirteen.columns {
+		width: 760px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	.sklt-container .thirteen.columns.alpha.omega {
+		width: 780px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	.sklt-container .fourteen.columns {
+		width: 820px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	.sklt-container .fourteen.columns.alpha.omega {
+		width: 840px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	.sklt-container .fifteen.columns {
+		width: 880px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	.sklt-container .fifteen.columns.alpha.omega {
+		width: 900px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	.sklt-container .sixteen.columns {
+		width: 940px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	.sklt-container .sixteen.columns.alpha.omega {
+		width: 960px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	.sklt-container .one-third.column {
+		width: 300px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	.sklt-container .two-thirds.column {
+		width: 620px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	.sklt-container .offset-by-one {
+		padding-left: 60px;
+	}
+
+	.sklt-container .offset-by-two {
+		padding-left: 120px;
+	}
+
+	.sklt-container .offset-by-three {
+		padding-left: 180px;
+	}
+
+	.sklt-container .offset-by-four {
+		padding-left: 240px;
+	}
+
+	.sklt-container .offset-by-five {
+		padding-left: 300px;
+	}
+
+	.sklt-container .offset-by-six {
+		padding-left: 360px;
+	}
+
+	.sklt-container .offset-by-seven {
+		padding-left: 420px;
+	}
+
+	.sklt-container .offset-by-eight {
+		padding-left: 480px;
+	}
+
+	.sklt-container .offset-by-nine {
+		padding-left: 540px;
+	}
+
+	.sklt-container .offset-by-ten {
+		padding-left: 600px;
+	}
+
+	.sklt-container .offset-by-eleven {
+		padding-left: 660px;
+	}
+
+	.sklt-container .offset-by-twelve {
+		padding-left: 720px;
+	}
+
+	.sklt-container .offset-by-thirteen {
+		padding-left: 780px;
+	}
+
+	.sklt-container .offset-by-fourteen {
+		padding-left: 840px;
+	}
+
+	.sklt-container .offset-by-fifteen {
+		padding-left: 900px;
+	}
+}
+
+/* #Tablet (Portrait)
+================================================== */
+
+/* Note: Design for a width of 768px */
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	.sklt-container {
+		width: 768px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	.sklt-container .column,
+	.sklt-container .columns {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	.column.alpha,
+	.columns.alpha {
+		margin-left: 0;
+		margin-right: 10px;
+	}
+
+	.column.omega,
+	.columns.omega {
+		margin-right: 0;
+		margin-left: 10px;
+	}
+
+	.alpha.omega {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.sklt-container .one.column,
+	.sklt-container .one.columns {
+		width: 28px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	.sklt-container .one.column.alpha.omega,
+	.sklt-container .one.columns.alpha.omega {
+		width: 48px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	.sklt-container .two.columns {
+		width: 76px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	.sklt-container .two.columns.alpha.omega {
+		width: 96px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	.sklt-container .three.columns {
+		width: 124px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	.sklt-container .three.columns.alpha.omega {
+		width: 144px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	.sklt-container .four.columns {
+		width: 172px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	.sklt-container .four.columns.alpha.omega {
+		width: 192px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	.sklt-container .five.columns {
+		width: 220px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	.sklt-container .five.columns.alpha.omega {
+		width: 240px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	.sklt-container .six.columns {
+		width: 268px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	.sklt-container .six.columns.alpha.omega {
+		width: 288px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	.sklt-container .seven.columns {
+		width: 316px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	.sklt-container .seven.columns.alpha.omega {
+		width: 336px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	.sklt-container .eight.columns {
+		width: 364px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	.sklt-container .eight.columns.alpha.omega {
+		width: 384px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	.sklt-container .nine.columns {
+		width: 412px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	.sklt-container .nine.columns.alpha.omega {
+		width: 432px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	.sklt-container .ten.columns {
+		width: 460px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	.sklt-container .ten.columns.alpha.omega {
+		width: 480px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	.sklt-container .eleven.columns {
+		width: 508px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	.sklt-container .eleven.columns.alpha.omega {
+		width: 528px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	.sklt-container .twelve.columns {
+		width: 556px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	.sklt-container .twelve.columns.alpha.omega {
+		width: 576px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	.sklt-container .thirteen.columns {
+		width: 604px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	.sklt-container .thirteen.columns.alpha.omega {
+		width: 624px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	.sklt-container .fourteen.columns {
+		width: 652px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	.sklt-container .fourteen.columns.alpha.omega {
+		width: 672px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	.sklt-container .fifteen.columns {
+		width: 700px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	.sklt-container .fifteen.columns.alpha.omega {
+		width: 720px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	.sklt-container .sixteen.columns {
+		width: 748px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	.sklt-container .sixteen.columns.alpha.omega {
+		width: 768px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	.sklt-container .one-third.column {
+		width: 236px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	.sklt-container .two-thirds.column {
+		width: 492px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	/* Offsets */
+
+	.sklt-container .offset-by-one {
+		padding-left: 48px;
+	}
+
+	.sklt-container .offset-by-two {
+		padding-left: 96px;
+	}
+
+	.sklt-container .offset-by-three {
+		padding-left: 144px;
+	}
+
+	.sklt-container .offset-by-four {
+		padding-left: 192px;
+	}
+
+	.sklt-container .offset-by-five {
+		padding-left: 240px;
+	}
+
+	.sklt-container .offset-by-six {
+		padding-left: 288px;
+	}
+
+	.sklt-container .offset-by-seven {
+		padding-left: 336px;
+	}
+
+	.sklt-container .offset-by-eight {
+		padding-left: 384px;
+	}
+
+	.sklt-container .offset-by-nine {
+		padding-left: 432px;
+	}
+
+	.sklt-container .offset-by-ten {
+		padding-left: 480px;
+	}
+
+	.sklt-container .offset-by-eleven {
+		padding-left: 528px;
+	}
+
+	.sklt-container .offset-by-twelve {
+		padding-left: 576px;
+	}
+
+	.sklt-container .offset-by-thirteen {
+		padding-left: 624px;
+	}
+
+	.sklt-container .offset-by-fourteen {
+		padding-left: 672px;
+	}
+
+	.sklt-container .offset-by-fifteen {
+		padding-left: 720px;
+	}
+}
+
+/*  #Mobile (Portrait)
+================================================== */
+
+/* Note: Design for a width of 320px */
+
+@media only screen and (max-width: 767px) {
+	.sklt-container {
+		width: 300px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	.sklt-container .columns,
+	.sklt-container .column {
+		margin: 0;
+	}
+
+	.sklt-container .one.column,
+	.sklt-container .one.columns,
+	.sklt-container .two.columns,
+	.sklt-container .three.columns,
+	.sklt-container .four.columns,
+	.sklt-container .five.columns,
+	.sklt-container .six.columns,
+	.sklt-container .seven.columns,
+	.sklt-container .eight.columns,
+	.sklt-container .nine.columns,
+	.sklt-container .ten.columns,
+	.sklt-container .eleven.columns,
+	.sklt-container .twelve.columns,
+	.sklt-container .thirteen.columns,
+	.sklt-container .fourteen.columns,
+	.sklt-container .fifteen.columns,
+	.sklt-container .sixteen.columns,
+	.sklt-container .one-third.column,
+	.sklt-container .two-thirds.column {
+		width: 300px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	.sklt-container .one.column.alpha.omega,
+	.sklt-container .one.columns.alpha.omega,
+	.sklt-container .two.columns.alpha.omega,
+	.sklt-container .three.columns.alpha.omega,
+	.sklt-container .four.columns.alpha.omega,
+	.sklt-container .five.columns.alpha.omega,
+	.sklt-container .six.columns.alpha.omega,
+	.sklt-container .seven.columns.alpha.omega,
+	.sklt-container .eight.columns.alpha.omega,
+	.sklt-container .nine.columns.alpha.omega,
+	.sklt-container .ten.columns.alpha.omega,
+	.sklt-container .eleven.columns.alpha.omega,
+	.sklt-container .twelve.columns.alpha.omega,
+	.sklt-container .thirteen.columns.alpha.omega,
+	.sklt-container .fourteen.columns.alpha.omega,
+	.sklt-container .fifteen.columns.alpha.omega,
+	.sklt-container .sixteen.columns.alpha.omega,
+	.sklt-container .one-third.column.alpha.omega,
+	.sklt-container .two-thirds.column.alpha.omega {
+		width: 310px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	/* Offsets */
+
+	.sklt-container .offset-by-one,
+	.sklt-container .offset-by-two,
+	.sklt-container .offset-by-three,
+	.sklt-container .offset-by-four,
+	.sklt-container .offset-by-five,
+	.sklt-container .offset-by-six,
+	.sklt-container .offset-by-seven,
+	.sklt-container .offset-by-eight,
+	.sklt-container .offset-by-nine,
+	.sklt-container .offset-by-ten,
+	.sklt-container .offset-by-eleven,
+	.sklt-container .offset-by-twelve,
+	.sklt-container .offset-by-thirteen,
+	.sklt-container .offset-by-fourteen,
+	.sklt-container .offset-by-fifteen {
+		padding-left: 0;
+	}
+}
+
+/* #Mobile (Landscape)
+================================================== */
+
+/* Note: Design for a width of 480px */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.sklt-container {
+		width: 420px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	.sklt-container .columns,
+	.sklt-container .column {
+		margin: 0;
+	}
+
+	.sklt-container .one.column,
+	.sklt-container .one.columns,
+	.sklt-container .two.columns,
+	.sklt-container .three.columns,
+	.sklt-container .four.columns,
+	.sklt-container .five.columns,
+	.sklt-container .six.columns,
+	.sklt-container .seven.columns,
+	.sklt-container .eight.columns,
+	.sklt-container .nine.columns,
+	.sklt-container .ten.columns,
+	.sklt-container .eleven.columns,
+	.sklt-container .twelve.columns,
+	.sklt-container .thirteen.columns,
+	.sklt-container .fourteen.columns,
+	.sklt-container .fifteen.columns,
+	.sklt-container .sixteen.columns,
+	.sklt-container .one-third.column,
+	.sklt-container .two-thirds.column {
+		width: 420px;
+		max-width: initial;
+		min-width: initial;
+	}
+
+	.sklt-container .one.column.alpha.omega,
+	.sklt-container .one.columns.alpha.omega,
+	.sklt-container .two.columns.alpha.omega,
+	.sklt-container .three.columns.alpha.omega,
+	.sklt-container .four.columns.alpha.omega,
+	.sklt-container .five.columns.alpha.omega,
+	.sklt-container .six.columns.alpha.omega,
+	.sklt-container .seven.columns.alpha.omega,
+	.sklt-container .eight.columns.alpha.omega,
+	.sklt-container .nine.columns.alpha.omega,
+	.sklt-container .ten.columns.alpha.omega,
+	.sklt-container .eleven.columns.alpha.omega,
+	.sklt-container .twelve.columns.alpha.omega,
+	.sklt-container .thirteen.columns.alpha.omega,
+	.sklt-container .fourteen.columns.alpha.omega,
+	.sklt-container .fifteen.columns.alpha.omega,
+	.sklt-container .sixteen.columns.alpha.omega,
+	.sklt-container .one-third.column.alpha.omega,
+	.sklt-container .two-thirds.column.alpha.omega {
+		width: 430px;
+		max-width: initial;
+		min-width: initial;
+	}
+}
+
+/* #Clearing
+================================================== */
+
+/* Self Clearing Goodness */
+
+.sklt-container:after {
+	content: "\0020";
+	display: block;
+	height: 0;
+	max-height: initial;
+	min-height: initial;
+	clear: both;
+	visibility: hidden;
+}
+
+/* Use clearfix class on parent to clear nested columns,
+	or wrap each row of columns in a <div class="row"> */
+
+.clearfix:before,
+.clearfix:after,
+.row:before,
+.row:after {
+	content: '\0020';
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	max-width: initial;
+	min-width: initial;
+	height: 0;
+	max-height: initial;
+	min-height: initial;
+}
+
+.row:after,
+.clearfix:after {
+	clear: both;
+}
+
+.row,
+.clearfix {
+	zoom: 1;
+}
+
+/* You can also use a <br class="clear" /> to clear columns */
+
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	max-width: initial;
+	min-width: initial;
+	height: 0;
+	max-height: initial;
+	min-height: initial;
+}

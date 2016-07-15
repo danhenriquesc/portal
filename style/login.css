@@ -1,0 +1,144 @@
+.loginbox{
+    height: auto; 
+    margin: 0 auto;
+    width: 350px; 
+    margin-top: 80px;
+}
+.loginbox form{
+    background: #FAFAFA;
+    border: 2px solid #F0F0F0;
+    width: 350px; 
+
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+.loginbox div.error{
+    color: [[setting:color2]];
+    font-size: 15px;
+    padding: 10px;
+    text-align: center;
+    width: 350px; 
+}
+.loginbox input[type="submit"]{
+    background: [[setting:color1]] center no-repeat;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 18px;
+    text-transform: uppercase;
+    height: 50px;
+    margin: 0;
+    width: 100%;
+    
+     -moz-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+
+    -webkit-border-bottom-right-radius: 15px;
+    -webkit-border-bottom-left-radius: 15px;
+    -moz-border-radius-bottomright: 15px;
+    -moz-border-radius-bottomleft: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.loginbox input[type="submit"]:hover{
+    background: [[setting:color5]];
+
+    -moz-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+.loginbox form p{
+    float: left;
+}
+.loginbox form a{
+    float: right;
+    padding-top: 2px;
+}
+.loginbox form .inputarea{
+    padding: 15px 25px;
+}
+.loginbox form .inputarea div label{
+    color: [[setting:color2]];
+    font-weight: normal;
+    font-size: 16px;
+}
+.loginbox form .inputarea div input[type="text"],
+.loginbox form .inputarea div input[type="password"]{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;
+    border: 1px solid #DADADA;
+    display: block;
+    height: 40px;
+    margin-top: 8px;
+    padding: 4px 15px;
+    width: 100%;
+    margin-bottom: 15px;
+
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.loginbox form .inputarea div input[type="text"]:-webkit-autofill,
+.loginbox form .inputarea div input[type="password"]:-webkit-autofill{
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+.loginbox form .inputarea div input[type="text"]{
+    margin-right: 15px;
+}
+.loginbox form p{
+    color: [[setting:color2]];
+    font-size: 15px;
+    font-weight: bold;
+}
+.loginbox form a{
+    color: [[setting:color2]];
+    font-size: 13px;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+}
+.loginbox form div.remember{
+    color: [[setting:color2]];
+    float: left;
+    font-size: 13px;
+}
+.loginbox form div.remember input[type="checkbox"]{
+    cursor: pointer;
+    float: left;
+    margin-top: 2px; 
+}
+.loginbox form div.remember label{
+    float: left;
+}
+.otherLoginMethod{
+    text-align: center;
+    width: 100%;
+}
+
+.otherLoginMethod>a.shibbolethLogin {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.guestform input[type="submit"]{
+    margin-top: 5px;
+}
+#loginSummary{
+    margin-top: 85px;
+}
+
+@media only screen and (max-width: 767px) {
+    #loginSummary, .loginbox{
+        margin-top: 0;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .loginbox form, .loginbox{
+        width: 280px;
+    }
+}

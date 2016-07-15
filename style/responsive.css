@@ -1,0 +1,474 @@
+/*
+* Responsive - Portal
+* Copyright 2014, Ararazu
+* www.ararazu.com
+*/
+
+/* Table of Contents
+==================================================
+	
+	#Smaller Than 1024px
+	#Smaller Than 960px
+	#Tablet Portrait
+	#All Mobile Sizes
+	#Mobile Landscape
+	#Mobile Portrait
+	# */
+
+/* Smaller Than 1024px
+================================================== */
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+img.smallscreen {
+	display: none;
+}
+.block_private_files.block a{
+	word-wrap: break-word;
+}
+
+@media only screen and (max-width: 1023px) {
+	/* Slideshow */
+
+	#slideshow #wrapper .plume-slider .plume-slide .plume-slide-inner .plume-slide-content h1,
+	#slideshow #wrapper .plume-slider .plume-slide .plume-slide-inner .plume-slide-content h1 a {
+		font-size: 48px;
+		line-height: 60px;
+	}
+
+	#slideshow #wrapper .plume-slider .plume-slide .plume-slide-inner .plume-slide-content h2,
+	#slideshow #wrapper .plume-slider .plume-slide .plume-slide-inner .plume-slide-content h2 a {
+		font-size: 24px;
+		line-height: 30px;
+	}
+
+}
+
+/* Smaller Than 960px
+================================================== */
+
+@media only screen and (max-width: 959px) {
+	/* Slideshow */
+
+	#slideshow #wrapper .plume-slider .plume-slide .plume-slide-inner .plume-slide-content h1,
+	#slideshow #wrapper .plume-slider .plume-slide .plume-slide-inner .plume-slide-content h1 a {
+		font-size: 42px;
+		line-height: 50px;
+	}
+
+	#slideshow #wrapper .plume-slider .plume-slide .plume-slide-inner .plume-slide-content h2,
+	#slideshow #wrapper .plume-slider .plume-slide .plume-slide-inner .plume-slide-content h2 a {
+		font-size: 21px;
+		line-height: 28px;
+	}
+
+	#link-boxes a.circle {
+		display: block;
+		text-align: center;
+		float: none;
+		margin: 0 auto 10px auto;
+	}
+
+	#link-boxes .title {
+		text-align: center;
+	}
+
+	#link-boxes p {
+		margin-bottom: 50px;
+		text-align: center;
+	}
+
+	.leftsidebar, .rightsidebar{
+		padding: 0;
+	}
+
+	
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	.block_calendar_month.block table *{
+		font-size: 9px !important;
+	}
+}
+
+/* Tablet Portrait
+================================================== */
+
+/* All Mobile Sizes
+================================================== */
+
+@media only screen and (max-width: 767px) {
+	* {
+		text-align: center;
+	}
+
+	#menubar #bt-menu-mobile {
+		display: block;
+	}
+
+	#menubar #menu-list {
+		display: none;
+	}
+
+	#menubar nav#mainmenu.mobile {
+		background: #114c77;
+		width: 100%;
+		max-width: initial;
+		min-width: initial;
+		margin: 18px auto 30px auto;
+		padding: 0px;
+		border: 0;
+		text-align: center;
+		z-index: 4;
+		-webkit-box-sizing: border-box;
+		-khtml-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-ms-box-sizing: border-box;
+		-o-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+	#menubar nav#mainmenu.mobile ul#menu-list {
+		display: block;
+		margin: 0;
+		padding: 0;
+		border: 0;
+	}
+
+	#menubar nav#mainmenu.mobile ul#menu-list li {
+		text-align: center;
+		width: 100%;
+		max-width: initial;
+		min-width: initial;
+		display: block;
+	}
+
+	#menubar nav#mainmenu.mobile ul#menu-list li a {
+		padding: 5px 10px;
+		border-bottom: 1px solid #145a8d;
+		width: 100%;
+		max-width: initial;
+		min-width: initial;
+		display: block;
+	}
+
+	#menubar nav#mainmenu.mobile ul#menu-list li ul.sub-menu {
+		background: #0e3e61;
+		position: relative;
+		margin: 0 0 0 -1px;
+		padding: 0;
+		border: 0;
+		width: 100%;
+		max-width: initial;
+		min-width: initial;
+		-ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=" 100 ")";
+		filter: alpha(opacity=100);
+		opacity: 1;
+		visibility: visible;
+		z-index: 10;
+		-webkit-transform: translateY(0);
+		-khtml-transform: translateY(0);
+		-ms-transform: translateY(0);
+		transform: translateY(0);
+		-webkit-box-shadow: none;
+		-khtml-box-shadow: none;
+		-ms-box-shadow: none;
+		-o-box-shadow: none;
+		box-shadow: none;
+		display: none;
+	}
+
+	#menubar nav#mainmenu.mobile ul#menu-list li ul.sub-menu li {
+		width: 100%;
+		max-width: initial;
+		min-width: initial;
+		display: block;
+	}
+
+	#menubar nav#mainmenu.mobile ul#menu-list li ul.sub-menu li a {
+		background: none;
+		color: #f9f9f9;
+		padding: 0px 10px;
+		border-color: #114c77;
+		width: 100%;
+		max-width: initial;
+		min-width: initial;
+		display: block;
+	}
+
+	#menubar nav#mainmenu.mobile ul#menu-list li ul.sub-menu li a:hover,
+	#menubar nav#mainmenu.mobile ul#menu-list li ul.sub-menu li a:focus {
+		background: none;
+		color: #f9f9f9;
+		border-color: #114c77;
+	}
+
+	#menubar nav#mainmenu.mobile ul#menu-list li ul.sub-menu li a:before {
+		color: rgba(255, 255, 255, 0.5);
+		margin-right: 5px;
+	}
+
+	#menubar nav#mainmenu.mobile ul#menu-list li ul.sub-menu li ul {
+		background: #0b2f4a;
+		position: relative;
+		margin: 0 0 0 -1px;
+		padding: 0;
+		border: 0;
+		width: 100%;
+		max-width: initial;
+		min-width: initial;
+		-ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=" 100 ")";
+		filter: alpha(opacity=100);
+		opacity: 1;
+		visibility: visible;
+		-webkit-box-shadow: none;
+		-khtml-box-shadow: none;
+		-ms-box-shadow: none;
+		-o-box-shadow: none;
+		box-shadow: none;
+		left: 0;
+		display: none;
+	}
+
+	#menubar nav#mainmenu.mobile ul#menu-list li ul.sub-menu li ul li a {
+		background: none;
+		padding: 0px 10px;
+	}
+
+	#menubar nav#mainmenu.mobile ul#menu-list li ul.sub-menu li ul li a:hover,
+	#menubar nav#mainmenu.mobile ul#menu-list li ul.sub-menu li ul li a:focus {
+		background: none;
+	}
+
+	#menubar nav#mainmenu.mobile ul#menu-list li ul.sub-menu li ul li a:before {
+		content: "\2022";
+		color: rgba(255, 255, 255, 0.3);
+		margin-right: 5px;
+	}
+
+	#menubar nav#mainmenu.mobile ul#menu-list li:hover > ul > li:hover > a,
+	#menubar nav#mainmenu.mobile ul#menu-list li:focus > ul > li:hover > a,
+	#menubar nav#mainmenu.mobile ul#menu-list li:hover > ul > li:focus > a,
+	#menubar nav#mainmenu.mobile ul#menu-list li:focus > ul > li:focus > a {
+		background: none;
+		color: #f9f9f9;
+		border-color: #114c77;
+	}
+	#topText{
+		display: none;
+	}
+	.breadcrumb{
+		height: auto;
+		display: block;
+		margin-bottom: 5px;
+		width: 100%;
+	}
+	.breadcrumb ul{
+		line-height: 0;
+	}
+	.navbutton{
+		float: none;
+		text-align: center;
+	}
+
+	h1,
+	h1 a,
+	h1 span {
+		font-size: 42px;
+		line-height: 60px;
+	}
+
+	h2,
+	h2 a,
+	h2 span {
+		font-size: 36px;
+		line-height: 50px;
+	}
+
+	h3,
+	h3 a,
+	h3 span {
+		font-size: 30px;
+		line-height: 36px;
+	}
+
+	h4,
+	h4 a,
+	h4 span {
+		font-size: 26px;
+		line-height: 32px;
+	}
+
+	h5,
+	h5 a,
+	h5 span {
+		font-size: 24px;
+		line-height: 28px;
+	}
+
+	h6,
+	h6 a,
+	h6 span {
+		font-size: 21px;
+		line-height: 24px;
+	}
+
+	.super-title {
+		font-size: 42px;
+		line-height: 46px;
+	}
+
+	#link-boxes p {
+		font-size: 18px;
+		line-height: 24px;
+	}
+
+	#slideshow #wrapper .nav-arrow {
+		width: 40px;
+		max-width: initial;
+		min-width: initial;
+		height: 68px;
+		max-height: initial;
+		min-height: initial;
+		bottom: 15px;
+	}
+
+	#slideshow #wrapper .nav-arrow.prev {
+		left: 15px;
+		background: url('[[pix:theme|plume-slider/arrows-mobile]]') top center;
+	}
+
+	#slideshow #wrapper .nav-arrow.next {
+		right: 15px;
+		background: url('[[pix:theme|plume-slider/arrows-mobile]]') bottom center;
+	}
+
+	#slideshow #wrapper ul.plume-bullets {
+		bottom: 25px;
+	}
+
+	#slideshow #wrapper ul.plume-bullets li {
+		margin: 0 5px;
+		padding: 0;
+		border: 0;
+	}
+
+	#slideshow #wrapper ul.plume-bullets li a.nav-bullet {
+		width: 40px;
+		max-width: initial;
+		min-width: initial;
+		height: 40px;
+		max-height: initial;
+		min-height: initial;
+	}
+
+	#introduction .super-title-box {
+		padding-bottom: 0;
+	}
+
+	#introduction .super-title-box:after {
+		display: none;
+	}
+
+	#featured-courses .control {
+		text-align: center;
+		margin-bottom: 10px;
+	}
+
+	.underlined h1,
+	.underlined h2,
+	.underlined h3,
+	.underlined h4,
+	.underlined h5,
+	.underlined h6 {
+		font-size: 21px;
+		line-height: 28px;
+	}
+
+	#footer {
+		background-image: none;
+	}
+
+	#footer .logo {
+		margin: 0 auto;
+	}
+
+	#footer .logo img {
+		float: none;
+	}
+
+	#footer p,
+	#footer ul,
+	#footer li,
+	#footer a {
+		font-size: 18px;
+		line-height: 24px;
+	}
+
+	#bottom-bar {
+		padding: 20px 0;
+	}
+
+	#bottom-bar #copyright,
+	#bottom-bar #connect {
+		padding: 10px 0;
+		font-size: 18px;
+		display: block;
+		float: none;
+		text-align: center;
+	}
+
+	#bottom-bar #copyright p,
+	#bottom-bar #connect p,
+	#bottom-bar #copyright ul,
+	#bottom-bar #connect ul,
+	#bottom-bar #copyright li,
+	#bottom-bar #connect li,
+	#bottom-bar #copyright a,
+	#bottom-bar #connect a {
+		font-size: 18px;
+	}
+
+	#bottom-bar #copyright ul.social-icons,
+	#bottom-bar #connect ul.social-icons {
+		float: none;
+		display: inline-block;
+	}
+
+	.coursebox .content .courseimage{
+		float: none;
+		margin: 0 auto;
+	}
+	.coursebox .content .courseimage img{
+		margin-bottom: 20px;
+	}
+
+	.navbutton #coursesearchnavbar #navsearchbox{
+		width: 250px;
+	}
+
+	.coursesearchbox.invisiblefieldset{
+		margin-bottom: 20px;
+	}
+
+}
+
+/* Tablet 600px x 800px
+================================================== */
+
+/* Mobile Landscape
+================================================== */
+
+/* Mobile Portrait
+================================================== */
+@media only screen and (max-width:480px) {
+	#navsearchbox{
+		margin: 10px 0 !important;
+	}
+	.forumsearch #search{
+		margin-bottom: 5px;
+	}
+}
